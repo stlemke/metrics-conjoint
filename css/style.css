@@ -1,0 +1,246 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html {
+	height: 100%;
+}
+
+body {
+  height: 100%;
+  background: rgb(133,198,233); /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, rgb(61,165,219), rgb(133,198,233));
+  background: -moz-linear-gradient(right, rgb(61,165,219), rgb(133,198,233));
+  background: -o-linear-gradient(right, rgb(61,165,219), rgb(133,198,233));
+  background: linear-gradient(to left, rgb(61,165,219), rgb(133,198,233));
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+  padding: 0;
+  margin: 0;
+}
+
+p {
+	font-size: 13px;
+}
+
+center {
+	font-size: 13px;
+}
+
+.maincontainer {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	height: 100%;
+	width: 90%;
+	background-color: white;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	box-sizing: border-box;
+	padding: 0px 10px 0px 10px;
+	height:auto !important; /* normale Browser */
+	min-height:100%; /* normale Browser */
+}
+
+.commentbox {
+	float: right;
+	width: 380px;
+	border: 1px solid black;
+	background-color: lightgrey;
+	color: black;
+	font-size: 12px;
+	padding: 4px;
+	margin: 4px;
+}
+
+.pagenumber {
+	position: relative;
+	top: -18px;
+	float: right;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	font-size: 10px;
+}
+
+.startbutton {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  text-decoration: none;
+  background: rgb(42,49,98);
+  width: 100px;
+  height: 26px;
+  border: 0;
+  padding: 4px;
+  color: #FFFFFF;
+  font-size: 12px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.startbutton:hover,.form button:active,.form button:focus {
+  background: rgb(84,98,196);
+}
+
+.deletebutton {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  text-decoration: none;
+  background: white;
+  border: 0;
+  color: red;
+  font-size: 13px;
+  font-weight: bold;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  display: block;
+}
+
+.deletebutton:hover {
+  color: rgb(200,0,0);
+}
+
+
+.catbutton {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  text-decoration: none;
+  background: #ff704d;
+  width: 170px;
+  height: 20px;
+  float: left;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  border: 3px solid #ff704d;
+}
+
+.catbutton:hover,.form button:active,.form button:focus {
+  background: #ff5c33;
+}
+
+.chosencatbutton {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  text-decoration: none;
+  background: red;
+  width: 170px;
+  height: 20px;
+  float: left;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  border: 3px solid red;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.chosencatbutton:hover{
+  background: #ff5c33;
+}
+
+.backbutton {
+	width: 32px;
+	height: 32px;
+	text-align: center;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	width: 53%;
+	min-width: 560px;
+	background-color: white;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.menubutton {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  text-decoration: none;
+  background: white;
+  width: 80px;
+  height: 20px;
+  float: left;
+  border: 0;
+  padding: 15px;
+  color: black;
+  font-size: 14px;
+  border: 1px solid grey;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  float: right;
+  margin: 2px 2px 2px 2px;
+}
+
+.menubutton:hover{
+  background: grey;
+}
+
+.menubuttonactive {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  text-decoration: none;
+  background: lightgrey;
+  width: 80px;
+  height: 20px;
+  float: left;
+  border: 0;
+  padding: 15px;
+  color: black;
+  font-size: 14px;
+  border: 1px solid grey;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  float: right;
+  margin: 2px 2px 2px 2px;
+}
+
+.menubuttonactive:hover{
+  background: grey;
+}
+
+
+/*Tooltip-Code from https://jsfiddle.net/8Lmz2oLj/*/
+
+.cart { width: 100%; }
+
+.hasTooltip span {
+    display: none;
+    color: #000;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.hasTooltip:hover span {
+    display: block;
+    position: absolute;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    margin: -5px 28px;
+}
