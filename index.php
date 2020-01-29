@@ -27,10 +27,10 @@
 				<i>The *metrics-project team</i><br><br>
 				<br><br><br>
 				<b>Contact:</b><br>
-				ZBW - Leibniz Information Centre for Economics<br>
-				Steffen Lemke<br>
-				Mail: s.lemke@zbw.eu<br>
-				https://metrics-project.net/<br><br></p>
+				INSTITUTE<br>
+				CONTACT PERSON<br>
+				MAIL ADDRESS<br>
+				PROJECT HOMEPAGE<br><br></p>
 			</div>
 			<hr style="background-color:rgb(42,49,98);height:1px;border:0px;border-radius:10px">
 			<form action="p0.php"  method="POST" name="startform" style="width:100" onsubmit="return validate(this);">
