@@ -71,10 +71,10 @@ if($result->rowCount() > 0) {
 				<center><a href="subexperiment/demo_sub.php" style="width:600px" target="_blank"><img src="img/subexp_preview_c.png" alt="Sub-Experiment" style="border:1px solid black;width:600px"></a></center>
 				<br><br>
 				<p><b>Contact:</b><br>
-				ZBW - Leibniz Information Centre for Economics<br>
-				Steffen Lemke<br>
-				Mail: s.lemke@zbw.eu<br>
-				https://metrics-project.net/<br><br></p>
+				INSTITUTE<br>
+				CONTACT PERSON<br>
+				MAIL ADDRESS<br>
+				PROJECT HOMEPAGE<br><br></p>
 				<hr style="background-color:rgb(42,49,98);height:1px;border:0px;border-radius:10px">
 		</div>
 	
