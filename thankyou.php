@@ -84,10 +84,10 @@ if($result->rowCount() > 0) {
 				Best regards <br>
 				<i>The *metrics-project team</i><br><br><br>
 				<b>Contact:</b><br>
-				ZBW - Leibniz Information Centre for Economics<br>
-				Steffen Lemke<br>
-				Mail: s.lemke@zbw.eu<br>
-				https://metrics-project.net/<br><br></p>
+				INSTITUTE<br>
+				CONTACT PERSON<br>
+				MAIL ADDRESS<br>
+				PROJECT HOMEPAGE<br><br></p>
 				<hr style="background-color:rgb(42,49,98);height:1px;border:0px;border-radius:10px">	
 					<div style="width:210px;margin-left:auto;margin-right:auto;margin-bottom:10px">
 						<a class="startbutton" href="p2.php" style="float:left;text-align:center;padding:5px 0px 0px 0px;height:26px">Back</a>
