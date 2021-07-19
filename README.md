@@ -1,5 +1,5 @@
 # metrics-conjoint
-Source files for the software used to collect data during the conjoint analysis experiments in the metrics-project. A manuscript with detailed information on the experiments' background, conduction and results is currently in preparation - a link to it will be added to this section as soon as it is ready. 
+Source files for the software used to collect data during the conjoint analysis experiments in the metrics-project. Detailed information on the experiments' background, conduction and results can be found in an article that was published in the Journal of the Association for Information Science and Technology: https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.24445 
 
 The software runs on PHP and a MySQL-database. It was tested using PHP 7.0.13, MySQL 5.0.12 and an Apache 2.4.23 webserver. 
 
